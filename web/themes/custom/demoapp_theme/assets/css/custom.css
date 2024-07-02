@@ -1,0 +1,25 @@
+.view-blogs .field--name-field-tags a,
+.view-news .field--name-field-tags a,
+.view-frontpage .field--name-field-tags a {
+  background-color: #c9e1bd;
+  padding: 3px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #444;
+}
+
+.site-navbar ul .nav-item {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.site-navbar ul .nav-item:hover {
+  background-color: #c9e1bd;
+  color: #444;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.site-navbar ul .nav-item .nav-link {
+  padding: 6px;
+}
