@@ -23,3 +23,33 @@
 .site-navbar ul .nav-item .nav-link {
   padding: 6px;
 }
+
+/* BEGIN comments  */
+.page-node-type-news .field--name-comment {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 16px;
+  margin: 10px 0;
+}
+.page-node-type-news .field--name-comment footer {
+  display: none;
+}
+.page-node-type-news .field--name-comment .content h3 a {
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+}
+.page-node-type-news .field--name-comment .content {
+  color: #444;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  height: 100%;
+}
+.page-node-type-news .field--name-comment .content .field--name-comment-body {
+  color: #6c757d;
+}
+.swiper-slide{
+  height: auto !important;
+}
+/* END comments  */

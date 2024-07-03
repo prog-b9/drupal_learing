@@ -40,18 +40,24 @@
     label_display == 'visually_hidden' ? 'visually-hidden',
   ]
 %}
-<section{{ attributes.addClass(classes) }}>
-  {% if comments and not label_hidden %}
-    {{ title_prefix }}
-    <h2{{ title_attributes.addClass(title_classes) }}>{{ label }}</h2>
-    {{ title_suffix }}
-  {% endif %}
+<section{{attributes.addClass(classes)}}>
+	{% if comments and not label_hidden %}
+		{{ title_prefix }}
+		<h2{{title_attributes.addClass(title_classes)}}>{{ label }}</h2>
+		{{ title_suffix }}
+	{% endif %}
 
-  {{ comments }}
+	{# <div>{{ comments }}</div> #}
+  <div class="swiper news-comments ">
+    <div class="swiper-wrapper ">
+        {{ comments }}
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
 
-  {% if comment_form %}
-    <h2 class="title comment-form__title">{{ 'Add new comment'|t }}</h2>
-    {{ comment_form }}
-  {% endif %}
+	{% if comment_form %}
+		<h2 class="title comment-form__title">{{ 'Add new comment'|t }}</h2>
+		{{ comment_form }}
+	{% endif %}
 
 </section>
