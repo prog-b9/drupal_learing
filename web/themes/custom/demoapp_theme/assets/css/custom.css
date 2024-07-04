@@ -49,7 +49,37 @@
 .page-node-type-news .field--name-comment .content .field--name-comment-body {
   color: #6c757d;
 }
-.swiper-slide{
+.swiper-slide {
   height: auto !important;
 }
 /* END comments  */
+
+.language-switcher-language-url{
+  display: flex;
+  align-items: center;
+}
+.language-switcher-language-url ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  row-gap: 3;
+  margin: 0;
+  padding: 0;
+}
+.language-switcher-language-url ul li  {
+  margin:12px 8px;
+}
+.language-switcher-language-url ul li a {
+  color: #444;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  padding: 7px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.language-switcher-language-url ul li a:hover {
+  background-color: #f8f9fa;
+  /* color: #444; */
+  transition: all 0.3s;
+  text-decoration: underline;
+}

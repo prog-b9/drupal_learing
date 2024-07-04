@@ -20,6 +20,8 @@
 %}
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
-    {{ content }}
+    <div class="d-flex align-items-center">
+      {{ content }}
+    </div>
   </div>
 {% endif %}
