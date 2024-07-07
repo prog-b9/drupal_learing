@@ -1,6 +1,4 @@
-.view-blogs .field--name-field-tags a,
-.view-news .field--name-field-tags a,
-.view-frontpage .field--name-field-tags a {
+.field--name-field-tags a {
   background-color: #c9e1bd;
   padding: 3px 10px;
   border-radius: 10px;
@@ -54,7 +52,7 @@
 }
 /* END comments  */
 
-.language-switcher-language-url{
+.language-switcher-language-url {
   display: flex;
   align-items: center;
 }
@@ -66,8 +64,8 @@
   margin: 0;
   padding: 0;
 }
-.language-switcher-language-url ul li  {
-  margin:12px 8px;
+.language-switcher-language-url ul li {
+  margin: 12px 8px;
 }
 .language-switcher-language-url ul li a {
   color: #444;
@@ -83,3 +81,22 @@
   transition: all 0.3s;
   text-decoration: underline;
 }
+
+/* BEGIN header  */
+header .region-nav-main {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+/* END header  */
+
+/* BEGIN node : blog   */
+/* .page-node-type-blog main .node__content .field--name-body {
+  background-color: #f8f9fa;
+  padding: 7px;
+  border-radius: 10px;
+}
+.page-node-type-blog main .node__content .field {
+  margin: 10px 0;
+} */
+/* END header  */
